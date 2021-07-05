@@ -1,15 +1,68 @@
 body{
     margin: 0;
-    font-family: 'Lato', sans-serif;
     
     
+}
 h1{
     font-family: 'Otomanopee One', sans-serif;
+    font-size: 50px;
+}
+.h1{
+    ont-family: 'Otomanopee One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
 }
 h2{
     font-family: 'Roboto', sans-serif;
 }
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;  
+}
+.p{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
 /* span tag ar jonno */
 .text-color{
     color: tomato;
+}
+/* display flex */
+.dis-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.half-side{
+    width: 50%;
+    margin: 5%;
+}
+.btn{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 30px;
+    background-image: linear-gradient(orange,tomato);
+}
+.mt{
+    margin-bottom: 30%;
+}
+.half-side img{
+    width: 100%;
+}
+.short-img{
+    height: 450px;
+    width: 60%;
+}
+.back-img{
+    background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.algn-item {
+    text-align: center;
+   
+    align-items: center;
 }
