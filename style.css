@@ -120,6 +120,7 @@ input{
 }
 textarea{
     border: none;
+    
     border-top: 2px solid gray;
     border-bottom: 2px solid gray;
 }
