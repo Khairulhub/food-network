@@ -118,8 +118,13 @@ input{
     border: none;
     border-bottom:2px  solid gray ;
 }
+textarea{
+    border: none;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
 footer{
-    background-color: gray;
+    background-color: rgba(8, 8, 66, 0.699);
     padding: 15px 0px;
 
 }
