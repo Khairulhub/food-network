@@ -1,31 +1,30 @@
 body{
-    margin: 0;
-    
-    
+    margin: 0;    
 }
+
 h1{
     font-family: 'Otomanopee One', sans-serif;
     font-size: 50px;
 }
+/* aligni=center ar jonno .h1 use korci */
 .h1{
     ont-family: 'Otomanopee One', sans-serif;
     font-size: 30px;
     text-align: center;
 }
 }
-h2{
-    font-family: 'Roboto', sans-serif;
-}
+/* aligni=center ar jonno .p use korci */
 p{
     font-family: 'Lato', sans-serif;
     font-size: 20px;  
 }
+/* aligni=center ar jonno .h1 use korci */
 .p{
     font-family: 'Lato', sans-serif;
     font-size: 15px;
     text-align: center;
 }
-/* span tag ar jonno */
+/* span tag ar  text-color change jonno */
 .text-color{
     color: tomato;
 }
@@ -35,10 +34,12 @@ p{
     justify-content: center;
     align-items: center;
 }
+/* display 50% diveded  */
 .half-side{
     width: 50%;
     margin: 5%;
 }
+/* a tag a ak sathe color ar jonno .btn use  */
 .btn{
     font-weight: 700;
     color: white;
@@ -56,12 +57,15 @@ p{
     width: 20%;
     background-image: linear-gradient(orange,tomato);
 }
+/* a tag a .btn class ar nice margin add ar jonno .mt use */
 .mt{
     margin-bottom: 30%;
 }
+
 .half-side img{
     width: 100%;
 }
+/* img k coto korar jonno use .short-img */
 .short-img{
     height: 450px;
     width: 60%;
@@ -70,11 +74,7 @@ p{
     background-image: url(./images/shapes/7.png);
     background-repeat: no-repeat;
 }
-.algn-item {
-    text-align: center;
-   
-    align-items: center;
-}
+
 .card{
     width: 25%;
     height: 400px;
@@ -95,6 +95,7 @@ p{
     
     text-align: justify;
 }
+/* Transpatent add */
 .tf{
     transition: 0.6s;
 }
@@ -111,6 +112,7 @@ justify-content: space-around;
     height: 5%;
     box-shadow: 10px 10px 25px rgb(139, 137, 137);
 }
+
 input{
     padding: 2%;
     width: 100%;
@@ -120,7 +122,6 @@ input{
 }
 textarea{
     border: none;
-    
     border-top: 2px solid gray;
     border-bottom: 2px solid gray;
 }
