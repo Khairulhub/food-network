@@ -118,3 +118,8 @@ input{
     border: none;
     border-bottom:2px  solid gray ;
 }
+footer{
+    background-color: gray;
+    padding: 15px 0px;
+
+}
